@@ -1,0 +1,162 @@
+[
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "pokerPos",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "pokerPos",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "f9oEzqC2ZAc7tI0QcotUY5"
+          },
+          "_sizeMode": 0
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "5ageZRfz1CtagoE6+zjfP6"
+        },
+        "fileId": "de45iYebRLqY3etsGnw00S"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 165.6,
+        "height": 247.8
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  [
+    {
+      "__type__": "cc.Prefab",
+      "_name": "pokerbackPrefab",
+      "data": {
+        "__id__": 1
+      }
+    },
+    {
+      "__type__": "cc.Node",
+      "_name": "pokerbackPrefab",
+      "_level": 1,
+      "_components": [
+        {
+          "__type__": "cc.Sprite",
+          "node": {
+            "__id__": 1
+          },
+          "_spriteFrame": {
+            "__uuid__": "e3/OjQ369EpZCbfGcCu3qj"
+          },
+          "_sizeMode": 0
+        },
+        {
+          "__type__": "f1e13J4+3VGwY5n7H+Kgt70",
+          "node": {
+            "__id__": 1
+          },
+          "actionDuration": 0.2
+        }
+      ],
+      "_prefab": {
+        "__type__": "cc.PrefabInfo",
+        "root": {
+          "__id__": 1
+        },
+        "asset": {
+          "__uuid__": "c6BfTuOSpFLLf4e2uzzao7"
+        },
+        "fileId": "16h9AXTtJKhLH1kp4J19Ax"
+      },
+      "_contentSize": {
+        "__type__": "cc.Size",
+        "width": 165.6,
+        "height": 247.8
+      },
+      "_position": {
+        "__type__": "cc.Vec3",
+        "x": 420,
+        "y": 139
+      },
+      "_scale": {
+        "__type__": "cc.Vec3",
+        "x": 1,
+        "y": 1,
+        "z": 1
+      }
+    }
+  ],
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pokerBack",
+      "texture": "a74Gdp/tRKeLvK7w36FhKI",
+      "rect": [
+        1,
+        2,
+        275,
+        411
+      ],
+      "offset": [
+        0.5,
+        -1
+      ],
+      "originalSize": [
+        276,
+        413
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "pokerPos",
+      "texture": "14dTUfix5CmL4Dtdm+V6Ji",
+      "rect": [
+        0,
+        0,
+        276,
+        413
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        276,
+        413
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]
